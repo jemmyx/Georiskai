@@ -1,7 +1,8 @@
 import rasterio
 import numpy as np
-from segment_geospatial import SamGeo
+
 import os
+from samgeo import SamGeo
 
 def process_image_with_ai(image_path: str, output_path: str):
     with rasterio.open(image_path) as src:
