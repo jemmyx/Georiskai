@@ -16,4 +16,9 @@ app.include_router(routes.router)
 
 @app.get("/api/health")
 def health_check():
-    return {"status": "GeoRiskAI backend OK"}
+    return {"status": "GeoRiskAI backend OK!"}
+
+
+@app.get("/")
+def root():
+    return {"message": "Welcome to GeoRiskAI backend!"}
