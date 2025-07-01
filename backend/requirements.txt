@@ -1,0 +1,8 @@
+fastapi
+uvicorn
+pydantic
+aiohttp
+segment-geospatial
+opencv-python-headless
+rasterio
+boto3

@@ -1,0 +1,1 @@
+// MapViewer.jsx placeholder
