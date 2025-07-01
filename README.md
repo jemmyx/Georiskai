@@ -1,6 +1,18 @@
-# GeoRiskAI
+# 🌍 GeoRiskAI
+
+**GeoRiskAI** est une plateforme open source qui exploite l'imagerie satellite, l'intelligence artificielle et les données géospatiales pour aider les ONG à évaluer les risques environnementaux et les vulnérabilités des bâtiments, notamment dans les zones à risque ou sinistrées.
+
+## 🎯 Objectif
+
+Permettre aux ONG, fondations et acteurs humanitaires de :
+
+- Identifier rapidement les zones vulnérables (toits endommagés, densité urbaine, risque d’inondation ou de feu)
+- Suivre l’évolution de l’occupation des sols (urbanisation, déforestation, etc.)
+- Accélérer l’évaluation post-catastrophe (séismes, inondations, incendies)
+- Obtenir des analyses de risque claires et accessibles via une interface simple ou une API
 
 Complete project setup.
+
 ## 🚀 Lancer GeoRiskAI en local
 
 ### 🧩 Prérequis
@@ -55,6 +67,7 @@ Cela démarre :
 ### 🔐 Configuration requise
 
 #### Pour acces aux images Sentinel :
+
 Dans `backend/app/utils/sentinel_downloader.py` :
 
 ```python
@@ -62,6 +75,7 @@ api = SentinelAPI("your_username", "your_password", "https://scihub.copernicus.e
 ```
 
 #### Uploader sur AWS S3 :
+
 Configure tes identifiants avec :
 
 ```bash
